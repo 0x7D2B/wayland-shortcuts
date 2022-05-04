@@ -37,4 +37,4 @@ sudo systemctl enable wayland-shortcuts
 
 if it breaks check perms and groups for /dev/uinput
 
-¯\_(ツ)_/¯
+¯\\\_(ツ)\_/¯
