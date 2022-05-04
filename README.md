@@ -20,7 +20,7 @@ in case everything goes to hell, press `LeftCtrl`+`F1`+`F12` to exit
 
 you can run this as root but that's very scary, do you trust people on the internet not to keylog you???
 
-try [SETUP.md](blob/master/SETUP.md) maybe it can install it as a systemd service for you (also send me a pr to do this properly thx)
+try [SETUP.md](SETUP.md) maybe it can install it as a systemd service for you (also send me a pr to do this properly thx)
 
 ----
 
