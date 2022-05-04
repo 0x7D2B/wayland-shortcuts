@@ -1,0 +1,17 @@
+[Unit]
+Description=wayland-shortcuts
+
+[Service]
+Type=simple
+User=wayland-shortcuts
+Group=uinput
+ExecStart=/usr/local/sbin/wayland-shortcuts
+PrivateNetwork=true
+TemporaryFileSystem=/:ro
+BindReadOnlyPaths=/lib/ /lib64/
+BindReadOnlyPaths=/usr/local/sbin/wayland-shortcuts
+BindReadOnlyPaths=/dev/input/
+BindReadOnlyPaths=/dev/uinput
+
+[Install]
+WantedBy=default.target
